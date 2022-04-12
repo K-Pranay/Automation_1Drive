@@ -15,10 +15,13 @@ The aim of this project is to operate a system through mobile or anyother system
 
 ### Executing program
 
-* It will be updated soon.
-```
+* StatusPics folder is used to store the captured images which which we can see status of our computer screen on the go.
+* The files in captureCLipBoard folder inside main is to make a copy of something that is captured through screen shot.
+* All main folder is to be available in one drive autosync folder such that we can update command.bat file to access the command prompt of the system to instruct our system.
+
+<!-- ```
 code blocks for commands
-```
+``` -->
 
 ## Authors
 

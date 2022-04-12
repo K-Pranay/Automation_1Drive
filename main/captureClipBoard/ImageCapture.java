@@ -9,7 +9,7 @@ import javax.imageio.ImageIO;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class check
+public class ImageCapture
 {
 public static void main(String args[])
 {
