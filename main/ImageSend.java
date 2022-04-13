@@ -20,7 +20,7 @@ Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
         //Get data from clipboard and assign it to an image.
         //clipboard.getData() returns an object, so we need to cast it to a BufferdImage.
         BufferedImage image = (BufferedImage)clipboard.getData(DataFlavor.imageFlavor);
-      	String content = new String(Files.readAllBytes(Paths.get("C:\\Users\\Pranay\\OneDrive\\Documents\\Automation_1Drive\\index.txt")));
+      	String content = new String(Files.readAllBytes(Paths.get("C:\\Users\\Pranay\\OneDrive\\Desktop\\Git_Projects\\Automation_1Drive\\main\\index.txt")));
       	String[] arrOfStr = content.split(",");
         arrOfStr[1] = arrOfStr[1].trim();
         // System.out.println(arrOfStr[0]);
@@ -29,12 +29,12 @@ Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
       	i++;
 
       	String content1 = arrOfStr[0]+","+i;
-      	String path = "C:\\Users\\Pranay\\OneDrive\\Documents\\Automation_1Drive\\index.txt";
+      	String path = "C:\\Users\\Pranay\\OneDrive\\Desktop\\Git_Projects\\Automation_1Drive\\main\\index.txt";
       	Files.write( Paths.get(path), content1.getBytes());
 
 
         //file that we'll save to disk.
-        String str = "C:\\Users\\Pranay\\OneDrive\\Documents\\Automation_1Drive\\statusPics\\"+arrOfStr[0]+arrOfStr[1]+".jpg";
+        String str = "C:\\Users\\Pranay\\OneDrive\\Desktop\\Git_Projects\\Automation_1Drive\\main\\statusPics\\"+arrOfStr[0]+arrOfStr[1]+".jpg";
         File file = new File(str);   // str as name and location of file  //image.jpg
 
         //class to write image to disk.  You specify the image to be saved, its type,
