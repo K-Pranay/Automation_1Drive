@@ -1,0 +1,15 @@
+1. Make the server to hold based on user input in txt file
+2. Max wait time is 3 times unused.
+3. Under normal case server should run on empty file.
+4. write more useful commands such that user can just replace and get task done.
+
+
+
+.
+.
+.
+.
+.
+.
+
+Long Idea build a static andriod app that makes this possible with buttons in mobile.

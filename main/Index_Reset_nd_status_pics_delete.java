@@ -16,7 +16,7 @@ public class Index_Reset_nd_status_pics_delete
 {
 	public static void main(String[] args)
 	{
-		File folder = new File("C:\\Users\\Pranay\\OneDrive\\Documents\\Automation_1Drive\\statusPics"); // C:\Users\Pranay\Downloads\temp_thaata
+		File folder = new File("C:\\Users\\Pranay\\OneDrive\\Desktop\\Git_Projects\\Automation_1Drive\\main\\statusPics");
 		File[] listOfFiles = folder.listFiles();
 
 		try
@@ -32,13 +32,13 @@ public class Index_Reset_nd_status_pics_delete
 
 					if (str_old.matches(".*.jpg"))
 					{
-						Files.deleteIfExists(Paths.get("C:\\Users\\Pranay\\OneDrive\\Documents\\Automation_1Drive\\statusPics\\"+ str_old));
+						Files.deleteIfExists(Paths.get("C:\\Users\\Pranay\\OneDrive\\Desktop\\Git_Projects\\Automation_1Drive\\main\\statusPics\\"+ str_old));
 						System.out.println("deleting "+str_old + " done");
 					}
 				}
 			}
 			String str = "Status,1";
-			String path = "C:\\Users\\Pranay\\OneDrive\\Documents\\Automation_1Drive\\index.txt";
+			String path = "C:\\Users\\Pranay\\OneDrive\\Desktop\\Git_Projects\\Automation_1Drive\\main\\index.txt";
 			Files.write(Paths.get(path), str.getBytes());
 		}
 		// catch(NoSuchFileException e)
