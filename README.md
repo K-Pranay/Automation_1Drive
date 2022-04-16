@@ -18,6 +18,9 @@ The aim of this project is to operate a system through mobile or anyother system
 * StatusPics folder is used to store the captured images which which we can see status of our computer screen on the go.
 * The files in captureCLipBoard folder inside main is to make a copy of something that is captured through screen shot.
 * All main folder is to be available in one drive autosync folder such that we can update command.bat file to access the command prompt of the system to instruct our system.
+* Task scheduler in windows is used to make command.bat file to run particular simple command continously.
+* Initially this command.bat will be having an empty file to make it work efficiently
+* I need to have batch files to replace and get job done whenever needed with few files.
 
 <!-- ```
 code blocks for commands
