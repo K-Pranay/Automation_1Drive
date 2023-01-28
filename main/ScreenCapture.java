@@ -18,7 +18,14 @@ public class ScreenCapture
         robot.mousePress(InputEvent.BUTTON1_MASK);
         // robot.mouseRelease(InputEvent.BUTTON1_MASK);
         // robot.mousePress(InputEvent.BUTTON1_MASK);
-        robot.delay (500); //for seeing it
+        // robot.delay (500); //for seeing it
+        // robot.mouseMove(1920,1080);
+        
+        for(int i = 0 ; i <500 ; i++){
+          robot.delay(1);
+          robot.mouseMove((int)((1920/500.0)*i),(int)((1080/500.0)*i));
+          System.out.println("x = " + (int)((1920/500.0)*i) + " y = " + (int)((1080/500.0)*i));
+        }
         robot.mouseMove(1920,1080);
         robot.delay (500);//for visual appeal
         robot.mouseRelease(InputEvent.BUTTON1_MASK);

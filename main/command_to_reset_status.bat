@@ -4,4 +4,5 @@ cd/
 cd C:\Users\Pranay\OneDrive\Desktop\Git_Projects\Automation_1Drive\main
 javac Index_Reset_nd_status_pics_delete.java
 java Index_Reset_nd_status_pics_delete
+del /Q *.class
 exit
