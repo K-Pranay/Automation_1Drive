@@ -1,11 +1,11 @@
 # Automation_1Drive
-The aim of this project is to operate a system through mobile or anyother system with out any server of your own.
+The aim of this project is to operate a system through mobile or anyother system without any server of your own.
 
 ## Getting Started
 
 ### Dependencies
 
-* This project has a strog dependency on one Drives autosync feature.
+* This project has a strong dependency on one Drives auto-sync feature.
 
 ### Installing
 
